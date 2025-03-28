@@ -153,7 +153,7 @@ export default function YouTubePage() {
       <div className="min-h-screen ">
         <div className="max-w-4xl mx-auto">
           <div className=" shadow-md rounded-lg p-6">
-            <h1 className="text-2xl font-bold text-gray-900 mb-6 text-white">YouTube Video Analysis</h1>
+            <h1 className="text-2xl font-bold text-gray-900 mb-6 mt-44 text-white">YouTube Video Analysis</h1>
 
             {/* URL Input Form */}
             <form onSubmit={handleAnalyze} className="mb-8">

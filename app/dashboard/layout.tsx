@@ -117,7 +117,7 @@ export default function DashboardLayout({
 
       <div className="flex flex-1">
         {/* Desktop Sidebar */}
-        <aside className="hidden w-64 flex-col border-r bg-muted/40 lg:flex">
+        <aside className="hidden w-72 flex-col border-r bg-muted/40 lg:flex">
           <div className="flex h-16 items-center border-b px-6">
             <Link href="/dashboard" className="flex items-center">
               <span className="text-xl font-bold">AI Agents</span>
@@ -144,9 +144,10 @@ export default function DashboardLayout({
                 </div>
                 <div>
                   <p className="text-sm font-medium">{session?.user?.name || 'User'}</p>
-                  <p className="text-xs text-muted-foreground">{session?.user?.email || 'user@example.com'}</p>
+                  <p className="text-xs text-muted-foreground ">{session?.user?.email || 'user@example.com'}</p>
                 </div>
               </div>
+              {'  '}
               <ModeToggle />
             </div>
             <Button
