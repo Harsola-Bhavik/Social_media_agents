@@ -193,7 +193,7 @@ export default function SettingsPage() {
 
   return (
     <div className="container mx-auto py-10 space-y-8">
-      <h1 className="text-3xl font-bold">Settings</h1>
+      <h1 className="text-3xl font-bold ml-3">Settings</h1>
 
       {/* Profile Settings */}
       <Card>
